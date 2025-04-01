@@ -6,6 +6,6 @@ public class ex5 {
         Scanner sc = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("0.00");
 
-        
+        //Incompleto
     }
 }
