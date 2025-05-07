@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/EstruturaRepeticao/EstruturaRepeticao.iml" filepath="$PROJECT_DIR$/EstruturaRepeticao/EstruturaRepeticao.iml" />
       <module fileurl="file://$PROJECT_DIR$/OutrosExs/OutrosExs.iml" filepath="$PROJECT_DIR$/OutrosExs/OutrosExs.iml" />
       <module fileurl="file://$PROJECT_DIR$/WorksFrFiap.iml" filepath="$PROJECT_DIR$/WorksFrFiap.iml" />
     </modules>
