@@ -1,0 +1,20 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+    int valor = 5;
+    if(valor == 1 || valor == 2){
+        System.out.println("A");
+    }
+    else if (valor == 3 || valor == 4){
+        System.out.println("E");
+    }
+    else if (valor == 5 || valor == 6){
+        System.out.println("I");
+    }
+    else {
+        System.out.println("X");
+    }
+
+    }
+}
