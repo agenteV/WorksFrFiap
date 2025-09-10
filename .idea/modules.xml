@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/EstruturaRepeticao/EstruturaRepeticao.iml" filepath="$PROJECT_DIR$/EstruturaRepeticao/EstruturaRepeticao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matriz/Matriz.iml" filepath="$PROJECT_DIR$/Matriz/Matriz.iml" />
       <module fileurl="file://$PROJECT_DIR$/OutrosExs/OutrosExs.iml" filepath="$PROJECT_DIR$/OutrosExs/OutrosExs.iml" />
       <module fileurl="file://$PROJECT_DIR$/WorksFrFiap.iml" filepath="$PROJECT_DIR$/WorksFrFiap.iml" />
     </modules>
