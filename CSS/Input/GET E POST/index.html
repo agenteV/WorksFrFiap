@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="container">
+        <div class="bg-primary p-4 mt-3 rounded">
+            <h1 class="display-5 text-light">Criar Conta</h1>
+        </div>
+        <form id="criarConta" name="criarConta" method="get" action="classe Java">
+            <section class="row">
+            <div class="my-2">
+                <label for="usuario" class="form-label">Usuario</label>
+                <input type="text" id="usuario" name="usuario" class="form-control">
+                
+            </div>
+
+
+    <div class="my-3">
+                <label for="senha" class="form-label" >Senha</label>
+                <input type="password" id="password" name="password" class="form-control" minlength="8" maxlength="20" placeholder="Ex:idwndwind" required >
+            </div>
+
+            <div class="my-2">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Ex: seu@email"  required>
+
+                <div class="my-2">
+                    <label for="dataCadastro" class="form-label">Data de Cadastro</label>
+                    <input type="date" id="dataCadastro" name="dataCadastro" class="form-control" required >
+                </div>
+
+                <div class="my-3">
+                    <label for="tipoConta" class="form-label">Tipo de Conta</label>
+                    <select name="tipoConta" id="tipoConta" class="form-select">
+                        <option value="0" disabled selected> Selecione sua Conta</option>
+                        <option value="free">Free</option>
+                        <option value="vip">VIP</option>
+                        <option value="premium">Premium</option>
+                    </select>
+                </div>
+                
+                <div class="my-4 d-flex" >
+                    <button type="submit" class="btn btn-primary mx-auto w-100">Criar Conta</button>
+                </div>
+                
+
+            </div>
+
+            </section>
+        
+        </form>
+    </section>
+</body>
+
+</html>
