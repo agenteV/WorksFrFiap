@@ -3,6 +3,13 @@ document.querySelector('#criarConta').addEventListener('submit',function(e){
     e.preventDefault();
     
     const tbody = document.querySelector('#dadosConta');
+
+    if(document.querySelector('#tipoConta').value === '0'){
+        alert('Selecione uma conta valida!!!')
+        document.querySelector('#tipoConta').focus();
+        return;
+    }
+
     const campos = [
         document.querySelector('#usuario'),
         document.querySelector('#password'),
