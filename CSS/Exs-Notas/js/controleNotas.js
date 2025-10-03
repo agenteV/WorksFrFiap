@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         
         const mediaSprint = ((sprint01 + sprint02) / 2)*.6;
 
-        const mediaSemestral = (((mediaCkp + mediaSprint) * 4 ) + globalSolution * .6);
+        const mediaSemestral = (((mediaCkp + mediaSprint) * .4 ) + globalSolution * .6);
 
         const tr = document.createElement('tr');
         tr.innerHTML = `
