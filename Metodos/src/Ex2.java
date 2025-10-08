@@ -13,7 +13,6 @@ public class Ex2 {
         System.out.print("Digite o terceiro lado: ");
         int lado3 = sc.nextInt();
 
-        // Verifica se os valores podem formar um triângulo
         if (formaTriangulo(lado1, lado2, lado3)) {
             String classificacao = classificarTriangulo(lado1, lado2, lado3);
             System.out.println("Classificação: " + classificacao);
@@ -22,12 +21,10 @@ public class Ex2 {
         }
     }
 
-    // Método para verificar se os lados formam um triângulo
     public static boolean formaTriangulo(int a, int b, int c) {
         return (a < b + c) && (b < a + c) && (c < a + b);
     }
 
-    // Método para classificar o triângulo quanto aos lados
     public static String classificarTriangulo(int a, int b, int c) {
         if (a == b && b == c) {
             return "Equilátero";
