@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         form.reset();
 
         form.nomeAluno.focus();
-
+        
     });
 
 });
